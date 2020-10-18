@@ -27,8 +27,10 @@ const StoreProvider = ({ value = [], ...props }) => {
       // everytime Product reducer  we receive state & dispatch
       // dispath provides us with the new state and function to update state
       products: [],
+      cart: [],
+      cartOpen: false,
       categories: [],
-      currentCategory: '',
+      currentCategory: ''
     });
     // use this to confirm it works!
     console.log(state);
